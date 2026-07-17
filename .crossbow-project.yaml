@@ -1,0 +1,11 @@
+adr_path: docs/adr/
+docker:
+  static-html: crossbow-node-sandbox
+languages:
+- static-html
+serve:
+  command: npx serve .
+  dir: .
+  port: 3000
+test_commands:
+  static-html: npm install && npm test

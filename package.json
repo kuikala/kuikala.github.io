@@ -1,0 +1,11 @@
+{
+  "name": "kuikala.github.io",
+  "private": true,
+  "scripts": {
+    "test": "html-validate '**/*.html' && linkinator . --recurse --skip node_modules"
+  },
+  "devDependencies": {
+    "html-validate": "latest",
+    "linkinator": "latest"
+  }
+}
